@@ -1,0 +1,21 @@
+CREATE DATABASE IF NOT EXISTS AIS;
+USE AIS;
+
+CREATE IF NOT EXISTS TABLE messages(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(24) DEFAULT 'Anonymous',
+    email VARCHAR(50) DEFAULT 'Non_Email',
+    message VARCHAR(500) NOT NULL,
+    date_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO messages(
+	name,
+    email,
+    message
+)
+VALUES(
+	'Md. Nazmul Hossain',
+    'nazmulonline2002@gmail.com',
+    'Our team is very enthusiastic about creating this website. InshaAllah we will be able to complete it on time. Best wishes to our AIS team.'
+);
