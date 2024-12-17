@@ -1,36 +1,32 @@
 <?php
-    include_once("../connect_db/connection.php");
+// Database configuration
+$host = "localhost";
+$user = "root";
+$password = "";
+$database = "ais";
 
-    echo '<script>alert("Sent KK")</script>';
-    echo '<script>consol.log("include done");</script>';
+// Create a connection
+$conn = new mysqli($host, $user, $password, $database);
 
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
 
-    // $name = "Sojib";
-    // $email = "sojib@ss.com";
-    // $message = "I also love to eat rice but i don't eat.";
+// Get input data
+$name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
 
-    echo "<script> alert('$name'); </script>";
+// Insert data into the database
+$sql = "INSERT INTO messages (name, email, message) VALUES ('$name', '$email', '$message')";
 
-    $sql = "INSERT INTO messages( name, email, message ) VALUES( ?, ?, ?);";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("sss", $name, $email, $message);
+if ($conn->query($sql) === TRUE) {
+    echo "Message sent successfully!";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
 
-    if ($stmt->execute()) {
-        echo "Message sent successfully!";
-        echo '<script>alert("Sent Done")</script>';
-        echo '<script>consol.log("execute done");</script>';
-
-    } else {
-        echo "Error: " . $stmt->error;
-        echo '<script>alert("Sent Failed")</script>';
-        echo '<script>consol.log("failed done");</script>';
-    }
-
-
-    $stmt->close();
-    $conn->close();
-
+// Close the connection
+$conn->close();
 ?>

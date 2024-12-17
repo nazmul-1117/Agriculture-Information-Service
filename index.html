@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="style/home.css">
-    <link rel="stylesheet" href="style/message.css">
+    <link rel="stylesheet" href="Messages/message.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
@@ -77,19 +77,42 @@
         </main>
     </div>
 
-    <!-- <div class="messenger"> <a href="http://youtube.com">
-        <i class="fa-brands fa-facebook-messenger"></i></a>
-    </div> -->
+
+
+
+
+
+    <!-- modal content -->
+     <!-- Modal -->
+  <div id="messageModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModalBtn">&times;</span>
+      <h2>Send Us a Message</h2>
+      
+      <!-- User Input Form -->
+      <form id="messageForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
 
     <!-- Messenger Button -->
     <button id="messengerBtn" class="messenger">
         <i class="fa-brands fa-facebook-messenger"></i>
-    </button> 
+    </button>
 
     <footer>
         <p>&copy; 2024 All About Agriculture Information Service All rights reserved.</p>
     </footer>
-
 
     <script src="Messages/message.js"></script>
 </body>
