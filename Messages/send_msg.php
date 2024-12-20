@@ -1,17 +1,5 @@
 <?php
-// Database configuration
-$host = "localhost";
-$user = "root";
-$password = "";
-$database = "ais";
-
-// Create a connection
-$conn = new mysqli($host, $user, $password, $database);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+include_once "../connect_db/connection.php";
 
 // Get input data
 $name = $_POST['name'];

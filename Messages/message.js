@@ -21,6 +21,7 @@ window.addEventListener("click", (event) => {
   }
 });
 
+
 // Form Submission
 messageForm.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -47,5 +48,4 @@ messageForm.addEventListener("submit", (event) => {
     console.error("Error:", error);
     alert("An error occurred while submitting the form.");
   });
-  alert("exit");
 });
