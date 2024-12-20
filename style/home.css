@@ -121,19 +121,3 @@ nav {
     border-radius: 5px;
 }
 
-.messenger{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    padding: 0.250rem;
-
-    position: fixed;
-    bottom: 2rem;
-    right: 1rem;
-}
-
-.messenger i {
-    color: #00a53f;
-    font-size: 2.5rem;
-    text-align: center;
-}
