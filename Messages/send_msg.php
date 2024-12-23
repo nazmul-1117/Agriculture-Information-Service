@@ -1,5 +1,9 @@
 <?php
+<<<<<<< Updated upstream
     include_once("../connect_db/connection.php");
+=======
+include_once "../assets/connect_db/connection.php";
+>>>>>>> Stashed changes
 
     echo '<script>alert("Sent KK")</script>';
     echo '<script>consol.log("include done");</script>';
