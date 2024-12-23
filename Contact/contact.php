@@ -12,18 +12,7 @@
 </head>
 <body>
     <header>
-        <!-- <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="crops.html">Crops Information</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav> -->
         <?php include '../header.php'; ?>
-
     </header>
 
     <main>
@@ -38,9 +27,7 @@
                 </div>
                 <div class="detail">
                     <h3>Email</h3>
-                    <p><a href="223002080@student.green.ac.bd">223002080@student.green.ac.bd</a></p>
-                    <p><a href="223002088@student.green.ac.bd">223002088@student.green.ac.bd</a></p>
-                    <p><a href="223002089@student.green.ac.bd">223002089@student.green.ac.bd</a></p>
+                    <p><a href="223002089@student.green.ac.bd">223002089@student.green.ac.bd</a></p> 
                     <p><a href="223002157@student.green.ac.bd">223002157@student.green.ac.bd</a></p>
                 </div>
                 <address class="detail">
