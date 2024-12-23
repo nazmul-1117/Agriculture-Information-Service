@@ -28,7 +28,7 @@
                 <div class="detail">
                     <h3>Email</h3>
                     <p><a href="223002089@student.green.ac.bd">223002089@student.green.ac.bd</a></p> 
-                    <p><a href="223002157@student.green.ac.bd">223002157@student.green.ac.bd</a></p>
+                    <p><a href="223002158@student.green.ac.bd">223002158@student.green.ac.bd</a></p>
                 </div>
                 <address class="detail">
                     <h3>Address</h3>
