@@ -1,15 +1,16 @@
-
 /* Navigation Bar */
-header{
+header {
     background: #000;
     width: 100vw;
-    
+
 }
 
-.header-img{
+.header-img {
+    padding-top: 100px;
+
     width: 100%;
-    height: 200px;
-    background: url("../pic/home/5.jpg");
+    height: 250px;
+    background: url("../images/home/4.jpg");
     overflow: hidden;
     background-size: cover;
 }
@@ -27,13 +28,21 @@ nav {
 }
 
 .navbar {
-    background-color: #28a745;
+    /* background-color: #28a745; */
+    background-color: #0c531d;
     color: #fff;
     padding: 1rem;
 
-    position: sticky;
+    /* position: sticky; */
+    position: fixed;
     top: 0;
     left: 0;
+    z-index: 999;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
 
@@ -47,17 +56,38 @@ nav {
 
 .navbar li {
     margin: 0 1rem;
+
 }
 
-.navbar a {
+.navbar li a {
     color: #fff;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
+nav ul li a:hover {
+    color: #ffee00;
+  }
+
+.logo {
+    /* Logo container styles */
+    flex-shrink: 0;
+    /* Prevent logo from shrinking */
+}
+
+.logo img {
+    max-width: 4rem;
+    height: auto;
+}
+
+
+
+
+
+
 /* Sidebar */
 .sidebar {
-    background-color: #d5dee7; 
+    background-color: #d5dee7;
     padding: 2rem;
     max-height: 100%;
     max-width: 20%;
@@ -106,7 +136,8 @@ nav {
 }
 
 .content h1 {
-    color: #28a745; /* Green color */
+    color: #28a745;
+    /* Green color */
 }
 
 .content p {
@@ -120,4 +151,3 @@ nav {
     text-decoration: none;
     border-radius: 5px;
 }
-

@@ -1,31 +1,35 @@
-<header>
-    <div class="header-img"></div>
-</header>
+<?php
+    session_start()
+?>
 
 <nav class="navbar">
+
+    <div class="logo">
+        <a href="../index.php"><img src="../assets/images/logo/logo-2.png" alt="MyLogo"></a>
+    </div>
+
     <ul>
-
         <?php if (!isset($_SESSION['user_id'])): ?>
-            <li><a href="../home/home.html">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="services/services.html">Services</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Crops</a></li>
-            <li><a href="#">Gallary</a></li>
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="../about_us/about_us.php">About Us</a></li>
+            <li><a href="../services/service.php">Services</a></li>
+            <li><a href="../contact/contact.php">Contact</a></li>
+            <li><a href="../crops/crops.php">Crops</a></li>
+            <li><a href="../Gallery/gallery.php">Gallary</a></li>
 
-            <li><a href="LoginSingup/login.php">Login</a></li>
-            <li><a href="LoginSingup/registration.php">Register</a></li>
+            <li><a href="../LoginSingup/login.php">Login</a></li>
+            <li><a href="../LoginSingup/registration.php">Register</a></li>
 
         <?php else: ?>
 
-            <li><a href="../home/home.html">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="services/services.html">Services</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Crops</a></li>
-            <li><a href="#">Gallary</a></li>
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="../about_us/about_us.php">About Us</a></li>
+            <li><a href="../services/service.php">Services</a></li>
+            <li><a href="../contact/contact.php">Contact</a></li>
+            <li><a href="../crops/crops.php">Crops</a></li>
+            <li><a href="../Gallery/gallery.php">Gallary</a></li>
+            <li><a href="../LoginSingup/profile.php"> <?php echo $_SESSION['user_full_name'] ?> </a> </li>
 
-            <?php echo $_SESSION['user_full_name']?>
         <?php endif; ?>
 
 
