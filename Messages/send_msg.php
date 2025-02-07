@@ -1,5 +1,6 @@
 <?php
-include_once "../connect_db/connection.php";
+    include_once("../assets/connect_db/connection.php");
+// include_once "../connect_db/connection.php";
 
 // Get input data
 $name = $_POST['name'];

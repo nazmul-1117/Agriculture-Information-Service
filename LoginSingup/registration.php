@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    include_once '../connect_db/connection.php';
+    include_once '../assets/connect_db/connection.php';
 
     // Get data from the form
     $name = $_POST['name'];
@@ -28,10 +28,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../style/home.css">
-    <link rel="stylesheet" href="loginXsingup.css">
+    <link rel="shortcut icon" href="../assets/images/logo/favicon.ico" type="image/x-icon">
+    <title>Registration - Agriculture Information Service</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/home.css">
+    <link rel="stylesheet" href="../assets/css/loginXsingup.css">
 </head>
 <body>
 
