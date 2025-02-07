@@ -135,12 +135,6 @@ session_start();
         </div>
     </section>
 
-
-
-
-
-
-
     <!-- modal content -->
     <!-- Modal -->
     <div id="messageModal" class="modal">
