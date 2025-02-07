@@ -20,9 +20,16 @@ h1 {
     color: #4CAF50;
 }
 
+/* .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    gap: 1rem;
+    margin-top: 2rem;
+} */
+
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(5, 1fr); /* 5 equal-width columns */
     gap: 1rem;
     margin-top: 2rem;
 }

@@ -167,7 +167,7 @@ session_start();
         <p>&copy; 2024 All About Agriculture Information Service All rights reserved.</p>
     </footer>
 
-    <script src="Messages/message.js"></script>
+    <script src="assets/js/message.js"></script>
 </body>
 
 </html>
