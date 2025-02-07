@@ -51,7 +51,7 @@ $result = $conn->query($message_query);
             </div>
 
             <div class="messages">
-                <h2>Your Messages</h2>
+                <h2>All Messages</h2>
                 <table>
                     <thead>
                         <tr>

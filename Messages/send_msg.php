@@ -1,8 +1,5 @@
 <?php
-    include_once("../connect_db/connection.php");
-
-    echo '<script>alert("Sent KK")</script>';
-    echo '<script>consol.log("include done");</script>';
+    include_once("../assets/connect_db/connection.php");
 
     $name = $_POST['name'];
     $email = $_POST['email'];

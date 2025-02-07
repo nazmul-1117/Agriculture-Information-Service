@@ -23,36 +23,40 @@
 
             <div class="team">
                 <!-- Team Member 1 -->
-                <div class="team-member">
-                    <img src="../assets/images/about_us/1.jpg" alt="Team Member 1">
-                    <h3>Md. Nazmul Hossain</h3>
-                    <p>Project Leader, Backend Developer</p>
-                    <p>Nazmul ensures the project stays on track, manages timelines, and leads our team with vision and dedication.</p>
-                </div>
+                <a href="https://nazmul-1117.github.io/nazmul-portfolio/">
+                    <div class="team-member">
+                        <img src="../assets/images/about_us/1.jpg" alt="Nazmul's Picture">
+                        <h3>Md. Nazmul Hossain</h3>
+                        <p>Project Leader, Backend Developer</p>
+                        <p>Nazmul ensures the project stays on track, manages timelines, and leads our team with vision and dedication.</p>
+                    </div>
+                </a>
 
                 <!-- Team Member 2 -->
-                <div class="team-member">
-                    <img src="../assets/images/about_us/2.jpg" alt="Team Member 2">
-                    <h3>Md. Sanjid Alam Araf</h3>
-                    <p>Frontend Developer</p>
-                    <p>Araf creates user-friendly interfaces and designs that bring the project to life for our audience.</p>
-                </div>
+                <a href="https://github.com/Sanjid-Araf/">
+                    <div class="team-member">
+                        <img src="../assets/images/about_us/2.jpg" alt="Araf's Picture">
+                        <h3>Md. Sanjid Alam Araf</h3>
+                        <p>Frontend Developer</p>
+                        <p>Araf creates user-friendly interfaces and designs that bring the project to life for our audience.</p>
+                    </div>
+                </a>
 
                 <!-- Team Member 3 -->
-                <!-- <div class="team-member">
-                    <img src="../assets/images/person3.jpg" alt="Team Member 3">
-                    <h3>Emily Brown</h3>
-                    <p>Backend Developer</p>
-                    <p>Emily ensures the functionality of the platform with robust backend systems and databases.</p>
-                </div> -->
+                <div class="team-member">
+                    <img src="../assets/images/about_us/3.jpg" alt="Fuad's Picture">
+                    <h3>Md. Abdullah Al Fuad</h3>
+                    <p>Frontend Developer</p>
+                    <p>Fuad creates user-friendly interfaces and designs that bring the project to life for our audience.</p>
+                </div>
 
                 <!-- Team Member 4 -->
-                <!-- <div class="team-member">
-                    <img src="../assets/images/person4.jpg" alt="Team Member 4">
-                    <h3>Michael Lee</h3>
+                <div class="team-member">
+                    <img src="../assets/images/about_us/4.jpg" alt="Sojib's Picture">
+                    <h3>Md. Shajalal Sojib</h3>
                     <p>Content Specialist</p>
-                    <p>Michael researches and curates the accurate and up-to-date agricultural information featured on our platform.</p>
-                </div> -->
+                    <p>Sojib researches and curates the accurate and up-to-date agricultural information featured on our platform.</p>
+                </div>
             </div>
         </section>
     </main>

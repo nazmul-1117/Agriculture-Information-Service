@@ -159,7 +159,7 @@ session_start();
                 <label for="message">Message:</label>
                 <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
 
-                <button type="submit" class="submit-btn">Send Message</button>
+                <button type="submit" class="submit-btn btn">Send Message</button>
             </form>
         </div>
     </div>

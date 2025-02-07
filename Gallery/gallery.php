@@ -37,12 +37,12 @@
                 <img src="../assets/images/Gallery/4.jpeg" alt="Image 4">
                 <div class="caption">Healthy Vegetables</div>
             </div>
-            <!-- one row completed -->
-
             <div class="gallery-item">
                 <img src="../assets/images/Gallery/5.jpeg" alt="Image 5">
                 <div class="caption">Beautiful Crop Fields</div>
             </div>
+            <!-- one row completed -->
+
             <div class="gallery-item">
                 <img src="../assets/images/Gallery/6.jpeg" alt="Image 6">
                 <div class="caption">Modern Farming Techniques</div>
@@ -54,10 +54,38 @@
             <div class="gallery-item">
                 <img src="../assets/images/Gallery/8.jpeg" alt="Image 8">
                 <div class="caption">Healthy Vegetables</div>
-
-
-
             </div>
+            <div class="gallery-item">
+                <img src="../assets/images/Gallery/9.jpeg" alt="Image 1">
+                <div class="caption">Beautiful Crop Fields</div>
+            </div>
+            <div class="gallery-item">
+                <img src="../assets/images/Gallery/10.jpeg" alt="Image 2">
+                <div class="caption">Modern Farming Techniques</div>
+            </div>
+            <!-- second row completed -->
+
+            <div class="gallery-item">
+                <img src="../assets/images/Gallery/11.jpeg" alt="Image 6">
+                <div class="caption">Modern Farming Techniques</div>
+            </div>
+            <div class="gallery-item">
+                <img src="../assets/images/Gallery/12.jpeg" alt="Image 7">
+                <div class="caption">Harvest Time</div>
+            </div>
+            <div class="gallery-item">
+                <img src="../assets/images/Gallery/13.jpeg" alt="Image 8">
+                <div class="caption">Healthy Vegetables</div>
+            </div>
+            <div class="gallery-item">
+                <img src="../assets/images/Gallery/14.jpeg" alt="Image 1">
+                <div class="caption">Beautiful Crop Fields</div>
+            </div>
+            <div class="gallery-item">
+                <img src="../assets/images/Gallery/15.jpeg" alt="Image 2">
+                <div class="caption">Modern Farming Techniques</div>
+            </div>
+            <!-- third row completed -->
     </main>
 
     <footer>

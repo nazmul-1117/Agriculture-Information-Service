@@ -34,6 +34,8 @@ main{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 68vh;
 }
 
 .team-member img {
@@ -55,3 +57,18 @@ main{
     margin-bottom: 0.5rem;
     font-size: 0.95rem;
 }
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.about a{
+    min-height: 68vh;
+}
+
