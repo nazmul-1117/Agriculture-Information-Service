@@ -14,13 +14,13 @@ This project empowers farmers with knowledge to increase agricultural productivi
 [![Unlicense License][license-shield]][license-url]
 [![X][x-shield]][x-url]
 
-<!-- Another Version is start V2.0.3 -->
+<!-- Another Version is start V2.0.4 -->
 <div>
-  <img src="https://img.shields.io/badge/Version-2.0.3-007350?logo=Git&logoColor=green" height="25"> <br>
+  <img src="https://img.shields.io/badge/Version-2.0.4-yellow?logo=Git&logoColor=green" height="25"> <br>
 
   ###
 </div>
-<!-- Another Version is end V2.0.3 -->
+<!-- Another Version is end V2.0.4 -->
 
 # About AIS
 <p align="center">
@@ -76,8 +76,9 @@ institutions, or organizations that could enhance future work. This could involv
 sharing expertise, resources, or data.
 - Ethical considerations: Consider any ethical implications of future work and ensure that appropriate measures are in place to address them.
 
-# Tools and Technologies
+<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
+# Tools and Technologies
 ![HTML5][html-shield] </br>
 ![css][css-shield] </br>
 ![js][js-shield] </br>
@@ -88,7 +89,7 @@ sharing expertise, resources, or data.
 ![vsc][xampp-shield] </br>
 ![github][github-shield] </br>
 
-
+<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 <!-- CONTRIBUTING -->
 # Contributing
@@ -110,9 +111,7 @@ Don't forget to give the project a star! Thanks again!
   <img src="https://contrib.rocks/image?repo=nazmul-1117/Agriculture-Information-Service" alt="contrib.rocks image" />
 </a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 <!-- LICENSE -->
 ## License
@@ -121,9 +120,7 @@ Code and documentation copyright 2024-2025 the [`Agriculture-Information-Service
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
  [![License: AIS](https://img.shields.io/badge/License-AIS-red.svg)](https://opensource.org/licenses/MIT)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 
 <!-- CONTACT -->
@@ -132,9 +129,7 @@ Md. Nazmul Hossain - [@nazmul_1117][x-url] - 223002089@student.green.ac.bd
 
 Project Link: [Agriculture Information Service][project-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -147,8 +142,7 @@ These resources are most usefull for any kind of project. We also use these reso
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -161,7 +155,7 @@ These resources are most usefull for any kind of project. We also use these reso
 
 [issues-shield]: https://img.shields.io/github/issues/nazmul-1117/Agriculture-Information-Service?style=flat&for-the-badge&color=cyan&labelColor=gray&logo=issuu
 
-[license-shield]: https://img.shields.io/github/license/nazmul-1117/Agriculture-Information-Service?style=flat&for-the-badge&color=purple&labelColor=gray&logo=unlicense
+[license-shield]: https://img.shields.io/github/license/nazmul-1117/Agriculture-Information-Service?style=flat&for-the-badge&color=ff4070&labelColor=gray&logoColor=ff4070&logo=unlicense
 
 [x-shield]: https://img.shields.io/badge/X(Twitter)-@nazmul_1117-orange?logo=x&logoColor=blue
 
@@ -186,7 +180,7 @@ These resources are most usefull for any kind of project. We also use these reso
 
 [issues-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/issues
 
-[license-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/license
+[license-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/blob/main/LICENSE.txt
 
 [x-url]: https://x.com/nazmul_1117
 
