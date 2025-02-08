@@ -2,6 +2,9 @@
     include_once("../assets/connect_db/connection.php");
 // include_once "../connect_db/connection.php";
 
+echo '<script> alert("XXX") </script>';
+echo '<script> Console.log("BCCC") </script>';
+
 // Get input data
 $name = $_POST['name'];
 $email = $_POST['email'];
