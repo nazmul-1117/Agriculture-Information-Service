@@ -31,6 +31,7 @@ messageForm.addEventListener("submit", (event) => {
   const message = document.getElementById("message").value;
 
   // Send data to PHP using Fetch API
+  // Messages/send_msg.php
   fetch("Messages/send_msg.php", {
     method: "POST",
     headers: {
