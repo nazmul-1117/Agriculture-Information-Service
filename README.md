@@ -1,7 +1,5 @@
 <a id="readme-top"></a>
 
-
-
 # Agriculture-Information-Service
 This project empowers farmers with knowledge to increase agricultural productivity, improve livelihoods, and ensure food security for all.
 
@@ -11,6 +9,11 @@ This project empowers farmers with knowledge to increase agricultural productivi
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![Repo Size][repo-size-shield]][repo-size-url]
+[![Pull Requests][pr-shield]][pr-url]
+[![Last Commit][commit-shield]][commit-url]
+[![Languages Count][lang-count-shield]][lang-count-url]
+[![Top Language][top-lang-shield]][top-lang-url]
 [![Unlicense License][license-shield]][license-url]
 [![X][x-shield]][x-url]
 
@@ -38,7 +41,6 @@ and efficient farming methods.
 The motivation behind AIS stems from the challenges faced by farmers in accessing accurate and timely information. Traditional methods of information dissemination,
 such as radio and television, often lack the specificity and relevance required for modern agricultural practices. AIS aims to address these challenges by providing a centralized
 platform for farmers to access information tailored to their specific needs.
-
 
 ### Application
 AIS can be applied in various aspects of agriculture, including:
@@ -75,7 +77,6 @@ involve exploring new methods, tools, or applications.
 institutions, or organizations that could enhance future work. This could involve
 sharing expertise, resources, or data.
 - Ethical considerations: Consider any ethical implications of future work and ensure that appropriate measures are in place to address them.
-
 <p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 # Tools and Technologies
@@ -88,7 +89,6 @@ sharing expertise, resources, or data.
 ![xampp][vsc-shield] </br>
 ![vsc][xampp-shield] </br>
 ![github][github-shield] </br>
-
 <p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -110,7 +110,6 @@ Don't forget to give the project a star! Thanks again!
 <a href="https://github.com/nazmul-1117/Agriculture-Information-Service/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=nazmul-1117/Agriculture-Information-Service" alt="contrib.rocks image" />
 </a>
-
 <p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 <!-- LICENSE -->
@@ -119,16 +118,13 @@ Code and documentation copyright 2024-2025 the [`Agriculture-Information-Service
 
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
  [![License: AIS](https://img.shields.io/badge/License-AIS-red.svg)](https://opensource.org/licenses/MIT)
-
 <p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 
 <!-- CONTACT -->
 # Contact
-Md. Nazmul Hossain - [@nazmul_1117][x-url] - 223002089@student.green.ac.bd
-
+Md. Nazmul Hossain - [@nazmul_1117][x-url] - 223002089@student.green.ac.bd\
 Project Link: [Agriculture Information Service][project-url]
-
 <p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
@@ -141,24 +137,17 @@ These resources are most usefull for any kind of project. We also use these reso
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-
 <p align="right">(<a href="#readme-top">Back to Top</a>)</p>
 
+✨Happy Coding ✨
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/nazmul-1117/Agriculture-Information-Service?style=flat&for-the-badge&color=blue&labelColor=gray&logo=github
-
-
 [forks-shield]: https://img.shields.io/github/forks/nazmul-1117/Agriculture-Information-Service?style=flat&for-the-badge&color=red&labelColor=gray&logo=trailforks
-
 [stars-shield]: https://img.shields.io/github/stars/nazmul-1117/Agriculture-Information-Service?style=flat&for-the-badge&color=green&labelColor=gray&logo=asterisk
-
 [issues-shield]: https://img.shields.io/github/issues/nazmul-1117/Agriculture-Information-Service?style=flat&for-the-badge&color=cyan&labelColor=gray&logo=issuu
-
 [license-shield]: https://img.shields.io/github/license/nazmul-1117/Agriculture-Information-Service?style=flat&for-the-badge&color=ff4070&labelColor=gray&logoColor=ff4070&logo=unlicense
-
 [x-shield]: https://img.shields.io/badge/X(Twitter)-@nazmul_1117-orange?logo=x&logoColor=blue
-
 [html-shield]: https://img.shields.io/badge/HTML5-expert-fd73c4?logo=html5&logoColor=blue&labelColor=gray
 [css-shield]: https://img.shields.io/badge/CSS-expert-faab18?logo=css3&logoColor=faab18
 [js-shield]: https://img.shields.io/badge/JavaScript-beginner-00adb6?logo=javascript&logoColor=00adb6
@@ -169,21 +158,41 @@ These resources are most usefull for any kind of project. We also use these reso
 [xampp-shield]: https://img.shields.io/badge/Xampp-expert-54715d?logo=xampp&logoColor=fdff80
 [github-shield]: https://img.shields.io/badge/GitHub-expert-e9301c?logo=github&logoColor=black
 
+<!-- New Sheild -->
+[contributors-shield]: https://img.shields.io/github/contributors/nazmul-1117/Agriculture-Information-Service
+[forks-shield]: https://img.shields.io/github/forks/nazmul-1117/Agriculture-Information-Service
+[stars-shield]: https://img.shields.io/github/stars/nazmul-1117/Agriculture-Information-Service
+[issues-shield]: https://img.shields.io/github/issues/nazmul-1117/Agriculture-Information-Service
+[license-shield]: https://img.shields.io/github/license/nazmul-1117/Agriculture-Information-Service
+[repo-size-shield]: https://img.shields.io/github/repo-size/nazmul-1117/Agriculture-Information-Service
+[pr-shield]: https://img.shields.io/github/issues-pr/nazmul-1117/Agriculture-Information-Service
+[commit-shield]: https://img.shields.io/github/last-commit/nazmul-1117/Agriculture-Information-Service
+[lang-count-shield]: https://img.shields.io/github/languages/count/nazmul-1117/Agriculture-Information-Service
+[top-lang-shield]: https://img.shields.io/github/languages/top/nazmul-1117/Agriculture-Information-Service
+
+
 <!-- Markdown the Links -->
 [project-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/
-
 [contributors-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/graphs/contributors
-
 [forks-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/forks
-
 [stars-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/stargazers
-
 [issues-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/issues
-
 [license-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/blob/main/LICENSE.txt
+[contributors-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/graphs/contributors
+[forks-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/network/members
+[stars-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/stargazers
+[issues-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/issues
+[license-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/blob/main/LICENSE
+[repo-size-url]: https://github.com/nazmul-1117/Agriculture-Information-Service
+[pr-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/pulls
+[commit-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/commits
+[lang-count-url]: https://github.com/nazmul-1117/Agriculture-Information-Service
+[top-lang-url]: https://github.com/nazmul-1117/Agriculture-Information-Service
 
+<!-- Social Meadia Link -->
 [x-url]: https://x.com/nazmul_1117
 
+<!-- Languages Link -->
 [html-url]: https://www.w3schools.com/html/
 [css-url]: https://www.w3schools.com/css/default.asp
 [js-url]: https://www.w3schools.com/js/default.asp
