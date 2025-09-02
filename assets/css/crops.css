@@ -1,57 +1,191 @@
-/* Crops Section */
-main{
-    padding-top: 60px;
-    background: #000;
-    /* min-height: 90vh; */
-    width: 100vw;
+/* ===============================
+   Crops Page Styles
+   =============================== */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
 }
 
-.crops {
-    padding: 2rem;
-    text-align: center;
-    background-color: #f4f4f4;
+main {
+  /* padding: 60px 20px;
+  max-width: 1200px; */
+  /* margin: auto; */
+  min-height: 93vh;
+  padding-top: 100px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
 }
 
-.crops h1 {
-    color: #4CAF50;
-    margin-bottom: 2rem;
-    font-size: 2rem;
+main h1,
+.crop-category h1 {
+  text-align: center;
+  color: #2e7d32;
+  font-size: 2rem;
+  /* margin-bottom: 30px; */
 }
 
+/* Grid Containers */
+#cropCategories,
+#cropItems,
 .crop-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 40px 20px;
 }
 
+/* Category & Crop Cards */
+.category-card,
+.crop-card,
 .card {
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+.category-card:hover,
+.crop-card:hover,
+.card:hover,
+.crop-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
 
-.card img {
+/* Card Images */
+.category-card img,
+.crop-card img,
+.card img,
+.crop-item img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Card Titles */
+.card h2,
+.crop-card h3,
+.category-card h2 {
+  font-size: 1.2rem;
+  color: #388e3c;
+  margin-bottom: 10px;
+}
+
+/* Crop Item Layout */
+.crop-item {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.crop-item img {
+  max-width: 400px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.crop-details {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.crop-details h2 {
+  font-size: 1.5rem;
+  color: #388e3c;
+  margin-bottom: 15px;
+}
+
+.crop-details p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.crop-details strong {
+  color: #2e7d32;
+}
+
+/* Detailed View Section */
+#cropDetails {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+#cropDetails h2 {
+  color: #2e7d32;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.detail-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Back Button */
+.back-btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #388e3c;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+
+  .card,
+  .category-card,
+  .crop-card {
     width: 100%;
-    height: 150px;
-    object-fit: cover;
-}
+    max-width: 300px;
+  }
 
-.card h2 {
-    font-size: 1.2rem;
-    color: #4CAF50;
-    margin: 1rem 0;
-}
+  .crop-item {
+    flex-direction: column;
+    align-items: center;
+  }
 
-.card a {
-    text-decoration: none;
-    color: inherit;
+  .crop-item img {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .crop-details {
+    padding: 15px;
+    text-align: center;
+  }
+
+  #cropDetails {
+    padding: 20px;
+  }
 }

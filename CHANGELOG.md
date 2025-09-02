@@ -4,6 +4,25 @@
 - You can find updated to earlier
 ```
 
+
+<!-- Another Version is start V3.0.0 -->
+<div>
+  <img src="https://img.shields.io/badge/Version-3.0.0-00563f?logo=Git&logoColor=green" height="25"> <br>
+
+### ✨ Features
+  - 🌿 Add new Logo
+  - ➕ add json file
+  - ➕ add contact
+  - ➕ and many more ...
+
+### 🐛 Bug Fixes
+- ✅ Fixed Old Logo
+- ✅ Removed PHP/Server site dependency
+- ✅ removed unnecessery files/directories
+
+</div>
+<!-- Another Version is start V3.0.0 -->
+
 <!-- Another Version is start V2.0.4 -->
 <div>
   <img src="https://img.shields.io/badge/Version-2.0.4-yellow?logo=Git&logoColor=green" height="25"> <br>

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "jute",
+    "name": "Jute",
+    "image": "assets/images/crops/cash/jute.jpg",
+    "overview": "Jute is a fiber crop used in eco-friendly packaging.",
+    "growth": "Grows in warm, humid climates with alluvial soil.",
+    "season": "Sown in March–May, harvested July–September.",
+    "uses": "Sacks, ropes, mats, handicrafts.",
+    "benefits": "Biodegradable, renewable, supports rural economy."
+  }
+]

@@ -111,23 +111,39 @@ textarea {
 }
 
 .messenger {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    padding: 0.250rem;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 0.25rem;
 
-    position: fixed;
-    bottom: 2rem;
-    right: 1rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
 
-    border: none;
-    cursor: pointer;
+  border: none;
+  cursor: pointer;
+
+  background-color: transparent; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Proper shadow */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
 }
+
+.messenger:hover {
+  transform: scale(1.1);
+}
+
 
 .messenger i {
     color: #00a53f;
     font-size: 2.5rem;
     text-align: center;
+}
+
+.messenger i:hover {
+    color: #4c86d1;
 }
 
 .modal {

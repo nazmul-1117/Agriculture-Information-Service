@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIS - Agriculture Information Service</title>
+
+  <!-- Inject shared head content -->
+  <script>
+    fetch('assets/helper/head.html')
+      .then(res => res.text())
+      .then(data => {
+        document.head.insertAdjacentHTML('beforeend', data);
+      });
+  </script>
+
+  <!-- Page-specific styles -->
+  <link rel="stylesheet" href="assets/css/home.css" />
+  <link rel="stylesheet" href="assets/css/message.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div id="navbar"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Empowering Farmers, Enriching Agriculture</h1>
+      <p>Welcome to AIS — your trusted source for agricultural innovation, education, and support across Bangladesh.</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+    <div class="hero-image">
+      <img src="assets/images/home/hero2.jpg" alt="Hero Image" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about dark-theme">
+    <div class="about-content">
+      <h2>About Agriculture</h2>
+      <h1>Agriculture Information Service (AIS)</h1>
+      <p>
+        The <span class="highlight">Agriculture Information Service (AIS)</span> provides farmers with essential knowledge, expert advice, and modern tools to improve productivity and sustainability.
+      </p>
+      <ul>
+        <li>📢 Disseminates farming techniques, pest control methods, and policy updates.</li>
+        <li>🎓 Offers expert training on sustainable and climate-smart agriculture.</li>
+        <li>📱 Uses ICT tools like mobile apps and online platforms for real-time updates.</li>
+        <li>💹 Connects farmers to markets and ensures fair pricing.</li>
+        <li>🔬 Collaborates on research and promotes innovative farming solutions.</li>
+      </ul>
+      <p>
+        In Bangladesh, <span class="highlight">AIS</span> operates under the Ministry of Agriculture, focusing on technology promotion, media outreach, and direct farmer support via helplines and digital services.
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="assets/images/home/info.jpg" alt="About AIS" />
+    </div>
+  </section>
+
+  <!-- Services Menu -->
+  <section class="menu">
+    <h2>Our Services</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="assets/images/home/m1.jpg" alt="Modern Farming" />
+        <h3>Modern Farming Techniques</h3>
+        <p>Explore advanced methods in crop cultivation, irrigation, and pest management to boost yield and quality.</p>
+      </div>
+      <div class="menu-item">
+        <img src="assets/images/home/m2.jpg" alt="Smart Tools" />
+        <h3>Smart Agriculture Tools</h3>
+        <p>Leverage mobile apps, sensors, and AI-powered platforms for weather alerts, market trends, and precision farming.</p>
+      </div>
+      <div class="menu-item">
+        <img src="assets/images/home/m3.jpg" alt="Farmer Training" />
+        <h3>Farmer Support & Training</h3>
+        <p>Access expert-led workshops, online courses, and field demonstrations to build skills and confidence.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <h2>Field Highlights</h2>
+    <div class="image-grid">
+      <div class="image-item"><img src="assets/images/home/g1.jpg" alt="Field Work" /></div>
+      <div class="image-item"><img src="assets/images/home/g2.jpg" alt="Crop Showcase" /></div>
+      <div class="image-item"><img src="assets/images/home/g3.jpg" alt="Training Session" /></div>
+      <div class="image-item"><img src="assets/images/home/g4.jpg" alt="Technology in Farming" /></div>
+    </div>
+  </section>
+
+  <!-- Message Modal -->
+  <div id="messageModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModalBtn">&times;</span>
+      <h2>Send Us a Message</h2>
+      <form id="messageForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your Email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="submit-btn btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Messenger Button -->
+  <button id="messengerBtn" class="messenger">
+    <i class="fa-brands fa-facebook-messenger"></i>
+  </button>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <!-- Scripts -->
+  <script src="assets/js/message.js"></script>
+  <script src="assets/js/navbar.js"></script>
+</body>
+</html>

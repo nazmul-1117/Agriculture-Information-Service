@@ -1,0 +1,38 @@
+{
+  "grain": [
+    {
+      "name": "Wheat",
+      "image": "assets/images/crops/grain/wheat.jpg",
+      "description": "Wheat is a staple grain rich in nutrients."
+    },
+    {
+      "name": "Rice",
+      "image": "assets/images/crops/grain/rice.jpg",
+      "description": "Rice is widely cultivated in Asia."
+    }
+  ],
+  "flower": [
+    {
+      "name": "Rose",
+      "image": "assets/images/crops/flower/rose.jpg",
+      "description": "Roses are known for their fragrance and beauty."
+    },
+    {
+      "name": "Jasmine",
+      "image": "assets/images/crops/flower/jasmine.jpg",
+      "description": "Jasmine is used in perfumes and ceremonies."
+    },
+    {
+      "name": "Sunflower",
+      "image": "assets/images/crops/flower/sunflower.jpg",
+      "description": "Sunflowers are grown for seeds and oil."
+    }
+  ],
+  "cash": [
+    {
+      "name": "Jute",
+      "image": "assets/images/crops/cash/jute.jpg",
+      "description": "Jute is a major cash crop in Bangladesh."
+    }
+  ]
+}

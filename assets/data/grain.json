@@ -1,0 +1,29 @@
+[
+  {
+    "id": "wheat",
+    "name": "Wheat",
+    "image": "assets/images/crops/grain/wheat.jpeg",
+    "overview": "Wheat is a staple grain rich in protein and fiber.",
+    "growth": "Requires temperate climate and well-drained soil.",
+    "season": "Sown in winter, harvested in spring.",
+    "uses": "Used in bread, pasta, and flour production.",
+    "nutrition": {
+      "protein": "12g",
+      "fiber": "2g",
+      "vitamins": ["B1", "B3", "E"]
+    }
+  },
+  {
+    "id": "rice",
+    "name": "Rice",
+    "image": "assets/images/crops/grain/rice.jpeg",
+    "overview": "Rice is a primary food source in Asia.",
+    "growth": "Thrives in flooded fields and warm climates.",
+    "season": "Planted in monsoon, harvested in autumn.",
+    "uses": "Consumed as staple food, used in snacks and flour.",
+    "nutrition": {
+      "carbohydrates": "28g",
+      "protein": "2.7g"
+    }
+  }
+]

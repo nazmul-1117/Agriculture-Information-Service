@@ -1,106 +1,155 @@
-/* Contact Section Styles */
-main{
-    padding-top: 60px;
+/* ===============================
+   Contact Page Styles
+   =============================== */
+
+main {
+  padding-top: 60px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
 }
 
-.contact {
-    text-align: center;
-    padding: 2rem;
-    background-color: #f4f4f4;
+/* Contact Section Container */
+.contact-section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-.contact h1, h2 {
-    color: #4CAF50;
-    margin-bottom: 1rem;
+/* Section Heading */
+.contact-section h1,h2 {
+  padding-top: 5vh;
+  text-align: center;
+  color: #2e7d32;
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
-.contact p {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    color: #555;
+.contact-section p {
+  text-align: center;
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 30px;
 }
 
+/* Contact Details Grid */
+.contact-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.detail {
+  flex: 1 1 250px;
+  background-color: #f1f8e9;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.detail:hover {
+  transform: translateY(-5px);
+}
+
+.detail h3 {
+  font-size: 1.2rem;
+  color: #388e3c;
+  margin-bottom: 10px;
+}
+
+.detail p,
+.detail a,
+.detail li {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+  text-decoration: none;
+}
+
+.detail a:hover {
+  text-decoration: underline;
+  color: #2e7d32;
+}
+
+/* Contact Form */
 .contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-    background: #caccce;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 0 auto;
+  background: #e8f5e9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 20px;
 }
 
 .form-group {
-    margin-bottom: 1.5rem;
-    text-align: left;
+  margin-bottom: 1.5rem;
+  text-align: left;
 }
 
 .form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #333;
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 500;
 }
 
 .form-group input,
 .form-group textarea {
-    width: 100%;
-    padding: 0.8rem;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    transition: border-color 0.3s ease;
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
-    border-color: #4CAF50;
+  border-color: #4CAF50;
 }
 
+/* Submit Button */
 .submit-btn {
-    background: #4CAF50;
-    color: #fff;
-    border: none;
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: block;
+  margin: 0 auto;
 }
 
 .submit-btn:hover {
-    background: #45a049;
+  background: #388e3c;
 }
 
-/* Contact Details Section */
-.contact-details {
-    display: flex;
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .contact-details {
     flex-direction: column;
     align-items: center;
-    margin-bottom: 2rem;
-}
+  }
 
-.detail {
-    text-align: center;
-    margin-bottom: 1rem;
-}
+  .detail {
+    width: 100%;
+  }
 
-.detail h3 {
-    font-size: 1.2rem;
-    color: #4CAF50;
-    margin-bottom: 0.5rem;
+  .contact-form {
+    padding: 20px;
+  }
 }
-
-.detail p {
-    font-size: 1rem;
-    color: #555;
-}
-
-.detail a {
-    color: #4CAF50;
-    text-decoration: none;
-}
-
-.detail a:hover {
-    text-decoration: underline;
-}
-
