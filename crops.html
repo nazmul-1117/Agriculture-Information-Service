@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        fetch('assets/helper/head.html')
+            .then(res => res.text())
+            .then(data => {
+                document.head.insertAdjacentHTML('beforeend', data);
+            });
+    </script>
+    <title>Crops - Agriculture Information Service</title>
+    <link rel="stylesheet" href="assets/css/crops.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <main>
+        <h1>Crops Information</h1>
+        <section id="cropCategories"></section>
+        <section id="cropItems" style="display:none;"></section>
+        <section id="cropDetails" style="display:none;"></section>
+    </main>
+
+    <div id="footer"></div>
+    <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/crops.js"></script>
+
+</body>
+
+</html>

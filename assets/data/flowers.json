@@ -1,0 +1,21 @@
+[
+  {
+    "id": "rose",
+    "name": "Rose",
+    "image": "assets/images/crops/flowers/rose.jpeg",
+    "overview": "Roses are cultivated for beauty and fragrance.",
+    "growth": "Requires well-drained soil and full sun.",
+    "season": "Blooms in spring and summer.",
+    "uses": "Used in perfumes, decoration, and skincare.",
+    "fragrance": "Sweet and floral"
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "image": "assets/images/crops/flowers/sunflower.jpg",
+    "overview": "Sunflowers are grown for seeds and oil.",
+    "growth": "Thrives in sunny fields with moderate water.",
+    "season": "Summer bloomers.",
+    "uses": "Oil production, ornamental use, bird feed."
+  }
+]
