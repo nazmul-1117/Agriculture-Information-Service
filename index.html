@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+  <!-- <base href="https://nazmul-1117.github.io/Agriculture-Information-Service/"> -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
   <title>AIS - Agriculture Information Service</title>
   <script>
     fetch('assets/helper/head.html')
@@ -124,6 +126,19 @@
   <!-- Scripts -->
   <script src="assets/js/message.js"></script>
   <script src="assets/js/navbar.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(function (registration) {
+            console.log('ServiceWorker registration successful with scope:', registration.scope);
+          }, function (err) {
+            console.log('ServiceWorker registration failed:', err);
+          });
+      });
+    }
+  </script>
+
 </body>
 
 </html>
