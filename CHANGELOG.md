@@ -5,6 +5,23 @@
 ```
 
 
+<!-- Another Version is start V3.0.6 -->
+<div>
+  <img src="https://img.shields.io/badge/Version-3.0.6-093633?logo=Git&logoColor=green" height="25"> <br>
+
+### ✨ Features
+  - 🌿 No added something
+
+### 🐛 Bug Fixes
+- ✅ Relative Path
+- ✅ Icons
+- ✅ Header
+- ✅ Navbar
+
+</div>
+<!-- Another Version is start V3.0.6 -->
+
+---
 
 <!-- Another Version is start V3.0.6 -->
 <div>
