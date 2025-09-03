@@ -1,5 +1,5 @@
 // === Load Navbar and Attach Toggle Logic ===
-fetch('/assets/helper/navbar.html')
+fetch('assets/helper/navbar.html')
   .then(res => res.text())
   .then(data => {
     document.getElementById('navbar').innerHTML = data;
