@@ -10,10 +10,7 @@ body {
 }
 
 main {
-  /* padding: 60px 20px;
-  max-width: 1200px; */
-  /* margin: auto; */
-  min-height: 93vh;
+  min-height: 100vh;
   padding-top: 100px;
   font-family: 'Segoe UI', sans-serif;
   background-color: #f9f9f9;

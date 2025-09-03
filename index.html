@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AIS - Agriculture Information Service</title>
 
-  <!-- Inject shared head content -->
+<head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <title>AIS - Agriculture Information Service</title>
   <script>
     fetch('assets/helper/head.html')
       .then(res => res.text())
@@ -15,13 +13,15 @@
   </script>
 
   <!-- Page-specific styles -->
-  <link rel="stylesheet" href="assets/css/home.css" />
-  <link rel="stylesheet" href="assets/css/message.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/message.css">
+
 </head>
 
 <body>
   <!-- Navbar -->
   <div id="navbar"></div>
+  <a id="top"></a>
 
   <!-- Hero Section -->
   <section class="hero">
@@ -41,7 +41,8 @@
       <h2>About Agriculture</h2>
       <h1>Agriculture Information Service (AIS)</h1>
       <p>
-        The <span class="highlight">Agriculture Information Service (AIS)</span> provides farmers with essential knowledge, expert advice, and modern tools to improve productivity and sustainability.
+        The <span class="highlight">Agriculture Information Service (AIS)</span> provides farmers with essential
+        knowledge, expert advice, and modern tools to improve productivity and sustainability.
       </p>
       <ul>
         <li>📢 Disseminates farming techniques, pest control methods, and policy updates.</li>
@@ -51,7 +52,10 @@
         <li>🔬 Collaborates on research and promotes innovative farming solutions.</li>
       </ul>
       <p>
-        In Bangladesh, <span class="highlight">AIS</span> operates under the Ministry of Agriculture, focusing on technology promotion, media outreach, and direct farmer support via helplines and digital services.
+        In Bangladesh, <span class="highlight">AIS</span> is a hub for agricultural innovation, focusing on
+        technology promotion, media outreach, and direct farmer support via helplines and digital services. We empower
+        farmers with the tools they need to thrive in a changing agricultural landscape. Together, we create a better
+        future for agriculture in Bangladesh. 
       </p>
     </div>
     <div class="about-image">
@@ -71,7 +75,8 @@
       <div class="menu-item">
         <img src="assets/images/home/m2.jpg" alt="Smart Tools" />
         <h3>Smart Agriculture Tools</h3>
-        <p>Leverage mobile apps, sensors, and AI-powered platforms for weather alerts, market trends, and precision farming.</p>
+        <p>Leverage mobile apps, sensors, and AI-powered platforms for weather alerts, market trends, and precision
+          farming.</p>
       </div>
       <div class="menu-item">
         <img src="assets/images/home/m3.jpg" alt="Farmer Training" />
@@ -123,5 +128,19 @@
   <!-- Scripts -->
   <script src="assets/js/message.js"></script>
   <script src="assets/js/navbar.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(function (registration) {
+            console.log('ServiceWorker registration successful with scope:', registration.scope);
+          }, function (err) {
+            console.log('ServiceWorker registration failed:', err);
+          });
+      });
+    }
+  </script>
+
 </body>
+
 </html>

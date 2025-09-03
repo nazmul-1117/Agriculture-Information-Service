@@ -1,214 +1,177 @@
-/* Your existing CSS for navbar, content, etc. */
-
-.messenger {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    padding: 0.250rem;
-
-    position: fixed;
-    bottom: 2rem;
-    right: 1rem;
-
-    border: none;
-    cursor: pointer;
-}
-
-.messenger i {
-    color: #00a53f;
-    font-size: 2.5rem;
-    text-align: center;
-}
-
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    /* width: 100%; 
-    height: 100%;  */
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.4);
-
-    width: 100vw;
-    height: 100vh;
-}
-
-.modal-content {
-    background-color: #fefefe;
-    margin: 20vh auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 30%;
-
-    border-radius: 0.8rem;
-}
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 0.8rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-textarea {
-    height: 100px;
-}
-
-.btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-input,
-textarea {
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.submit-btn {
-    background-color: #28a745;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-}
-
-.submit-btn:hover {
-    background-color: #218838;
-}
-
+/* Messenger Button */
 .messenger {
   height: 50px;
   width: 50px;
   border-radius: 50%;
   padding: 0.25rem;
-
   position: fixed;
   bottom: 2rem;
   right: 1rem;
-
   border: none;
   cursor: pointer;
-
-  background-color: transparent; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Proper shadow */
+  background-color: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
   transition: transform 0.3s ease;
+  z-index: 1000;
 }
 
 .messenger:hover {
   transform: scale(1.1);
 }
 
-
 .messenger i {
-    color: #00a53f;
-    font-size: 2.5rem;
-    text-align: center;
+  color: #00a53f;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 .messenger i:hover {
-    color: #4c86d1;
+  color: #4c86d1;
 }
 
+/* Modal Overlay */
 .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.4);
-
-    width: 100vw;
-    height: 100vh;
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
+/* Modal Content */
 .modal-content {
-    background-color: #fefefe;
-    margin: 20vh auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 30%;
-
-    border-radius: 0.8rem;
+  background-color: #fefefe;
+  margin: 20vh auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* Close Button */
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-
-
+/* Form Elements */
 label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
-    padding: 0.8rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
 }
 
 textarea {
-    height: 100px;
+  height: 100px;
+  resize: vertical;
 }
 
-.btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
+.btn,
+.submit-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+/* ===============================
+   Responsive Adjustments
+   =============================== */
+@media (max-width: 768px) {
+  .modal-content {
+    width: 80%;
+    margin: 15vh auto;
+    padding: 15px;
+  }
+
+  .messenger {
+    bottom: 1rem;
+    right: 1rem;
+    height: 45px;
+    width: 45px;
+  }
+
+  .messenger i {
+    font-size: 2rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 0.95rem;
+  }
+
+  .btn,
+  .submit-btn {
+    font-size: 0.95rem;
+    padding: 10px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content {
+    width: 90%;
+    margin: 10vh auto;
+    padding: 10px;
+  }
+
+  .messenger {
+    height: 40px;
+    width: 40px;
+  }
+
+  .messenger i {
+    font-size: 1.8rem;
+  }
+
+  label {
+    font-size: 0.9rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.9rem;
+  }
+
+  .btn,
+  .submit-btn {
+    font-size: 0.9rem;
+    padding: 8px 14px;
+  }
 }
