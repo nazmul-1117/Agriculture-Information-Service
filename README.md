@@ -6,7 +6,7 @@ Empowering farmers with knowledge to increase agricultural productivity, improve
 
 # Overview
 <!-- PROJECT SHIELDS -->
-![Version](https://img.shields.io/badge/Version-3.0.0-00563f?logo=Git&logoColor=green)
+![Version](https://img.shields.io/badge/Version-3.0.1-00f63f?logo=Git&logoColor=green)
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]

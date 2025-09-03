@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self' https://cdnjs.cloudflare.com;
+  style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
+  img-src 'self' data:;
+  font-src 'self' https://cdnjs.cloudflare.com;
+  connect-src 'self';
+  "> -->
   <title>AIS - Agriculture Information Service</title>
 
-  <!-- Inject shared head content -->
-  <script>
-    fetch('assets/helper/head.html')
-      .then(res => res.text())
-      .then(data => {
-        document.head.insertAdjacentHTML('beforeend', data);
-      });
-  </script>
+<script>
+  fetch('/Agriculture-Information-Service/assets/helper/head.html')
+    .then(res => res.text())
+    .then(data => {
+      document.head.insertAdjacentHTML('beforeend', data);
+    });
+</script>
 
   <!-- Page-specific styles -->
-  <link rel="stylesheet" href="assets/css/home.css" />
-  <link rel="stylesheet" href="assets/css/message.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/home.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/message.css">
+
 </head>
 
 <body>
@@ -41,7 +50,8 @@
       <h2>About Agriculture</h2>
       <h1>Agriculture Information Service (AIS)</h1>
       <p>
-        The <span class="highlight">Agriculture Information Service (AIS)</span> provides farmers with essential knowledge, expert advice, and modern tools to improve productivity and sustainability.
+        The <span class="highlight">Agriculture Information Service (AIS)</span> provides farmers with essential
+        knowledge, expert advice, and modern tools to improve productivity and sustainability.
       </p>
       <ul>
         <li>📢 Disseminates farming techniques, pest control methods, and policy updates.</li>
@@ -51,7 +61,8 @@
         <li>🔬 Collaborates on research and promotes innovative farming solutions.</li>
       </ul>
       <p>
-        In Bangladesh, <span class="highlight">AIS</span> operates under the Ministry of Agriculture, focusing on technology promotion, media outreach, and direct farmer support via helplines and digital services.
+        In Bangladesh, <span class="highlight">AIS</span> operates under the Ministry of Agriculture, focusing on
+        technology promotion, media outreach, and direct farmer support via helplines and digital services.
       </p>
     </div>
     <div class="about-image">
@@ -71,7 +82,8 @@
       <div class="menu-item">
         <img src="assets/images/home/m2.jpg" alt="Smart Tools" />
         <h3>Smart Agriculture Tools</h3>
-        <p>Leverage mobile apps, sensors, and AI-powered platforms for weather alerts, market trends, and precision farming.</p>
+        <p>Leverage mobile apps, sensors, and AI-powered platforms for weather alerts, market trends, and precision
+          farming.</p>
       </div>
       <div class="menu-item">
         <img src="assets/images/home/m3.jpg" alt="Farmer Training" />
@@ -124,4 +136,5 @@
   <script src="assets/js/message.js"></script>
   <script src="assets/js/navbar.js"></script>
 </body>
+
 </html>
