@@ -8,5 +8,25 @@
     "season": "Sown in March–May, harvested July–September.",
     "uses": "Sacks, ropes, mats, handicrafts.",
     "benefits": "Biodegradable, renewable, supports rural economy."
+  },
+  {
+    "id": "sugarcane",
+    "name": "Sugarcane",
+    "image": "assets/images/crops/cash/sugarcane.jpeg",
+    "overview": "Sugarcane is a tall tropical grass grown for sugar production.",
+    "growth": "Thrives in hot, sunny climates with abundant water and fertile soil.",
+    "season": "Planted in February–April, harvested in November–March.",
+    "uses": "Sugar, ethanol, molasses, paper, animal feed.",
+    "benefits": "High yield, supports sugar industry and biofuel production."
+  },
+  {
+    "id": "cotton",
+    "name": "Cotton",
+    "image": "assets/images/crops/cash/cotton.jpg",
+    "overview": "Cotton is a soft fiber crop used mainly in textile production.",
+    "growth": "Requires warm climate, moderate rainfall, and well-drained soil.",
+    "season": "Sown in April–May, harvested in October–January.",
+    "uses": "Clothing, textiles, oil, animal feed.",
+    "benefits": "High demand, export potential, supports textile industry."
   }
 ]
