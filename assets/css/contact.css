@@ -134,6 +134,20 @@ main {
   margin: 0 auto;
 }
 
+.detail p {
+    margin: 0.5em 0;
+    font-size: 1rem;
+}
+
+.detail a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.detail a:hover {
+    text-decoration: underline;
+}
+
 .submit-btn:hover {
   background: #388e3c;
 }
